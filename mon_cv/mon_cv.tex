@@ -1,0 +1,102 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+% taille de police ('10pt', '11pt' et '12pt'),
+% taille de la feuille ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' et 'landscape')
+% la famille de fonte ('sans' et 'roman')
+
+% Choix du thème et de la couleur
+\moderncvstyle{classic} % 'casual' 'classic' 'oldstyle' 'banking'.
+\moderncvcolor{blue} % 'blue' (par défaut)'orange' 'green' 'red' 'purple' 'grey' 'black'.
+% Largeur de la colonne date
+\setlength{\hintscolumnwidth}{2cm} 
+
+% Extensions additionnelles
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.8]{geometry}
+\usepackage{helvet}
+\usepackage[french]{babel}
+\usepackage{comment}
+
+% Données personnelles
+
+\name{MAHAMAT}{Amine}
+%\title{titre complémentaire} 
+\address{12, rue de la gare}{77\,000 Provins}{Cameroun}
+\phone[mobile]{+237XXXXXX}
+%\phone[fixed]{01~01~88~33~55}
+%\phone[fax]{02~11~22~33~44}
+\email{addresse@gmail.com}
+\homepage{www.site.com}
+\social[linkedin]{pierre.durand}
+\social[twitter]{pierre.durand}
+\social[github]{https://github.com/github}
+%\extrainfo{informations complémentaires.}
+%\quote{Encore un titre}
+% Insertion photo
+\photo[64pt][0.4pt]{amine1.jpg}
+
+
+% Début du document
+\begin{document}
+\makecvtitle
+
+% Corps du CV
+\section{Formation}
+\cventry{1999--2000}{Baccalauréat Série D}{Lycée De Martyre de Faya}{Brest}{\textit{Passble}}{Option Sciences}
+\cventry{2000--2005}{Informatique}{Université de yaounde 1}{Sens}{\textit{Ingénieur réseau}}{Description}
+
+\section{Compétences Techniques}
+\begin{itemize}
+    \item \textbf{Langages de Programmation} : Java, Python, JavaScript
+    \item \textbf{Frameworks et Outils} : Spring Boot, Spring Security, Spring Data JPA, Hibernate
+    \item \textbf{Base de Données} : MySQL, PostgreSQL
+    \item \textbf{Outils de Versionnage} : Git, GitHub
+    \item \textbf{Autres} : REST API, JSON, Maven, Docker
+\end{itemize}
+
+
+\section{Expériences}
+\cventry{}{Stage}{Stage : Développeur Back-End (3 mois)}{Yaounde}{IREX}%
+{%
+\begin{itemize}%
+\item  Mise en œuvre et procédés en salle blanche;
+\item intégration et caractérisation des membranes MEMS d'épaisseur nanométrique
+  \begin{itemize}%
+  \item AFM;
+  \item Vibromètre laser ;
+  \item MEB.
+  \end{itemize}
+\end{itemize}}
+\cventry{}{Projet Académique}{Yaounde}{Université de Yaounde 1}{}{%
+\begin{itemize}
+\item Développement d'une application web permettant la gestion des cours et des étudiants;
+\item Mise en place de la persistance des données avec Spring Data JPA et PostgreSQL;
+\item Gestion des utilisateurs avec rôles différenciés (admin, professeurs, étudiants).
+\item Documentation de l'API avec Swagger.
+\end{itemize}}
+
+\section{Certifications}
+\begin{itemize}
+    \item Spring Framework Certification (Coursera/Pluralsight)
+    \item Oracle Certified Associate, Java SE 8 Programmer
+\end{itemize}
+
+\section{Langues}
+\cvitemwithcomment{Français}{Lu, parlé, écrit}{un commentaire si besoin}
+\cvitemwithcomment{Arabe}{Lu, parlé, écrit}{Idem}
+\cvitemwithcomment{Anglais}{Lu, parlé, écrit}{Idem}
+
+
+
+\begin{comment}
+\section{Compétences Techniques}
+\cvdoubleitem{Java}{blabla, blabla}{C++}{blabla, blabla}
+\cvdoubleitem{Php}{blabla, blabla}{Pascal}{blabla, blabla}
+\cvdoubleitem{\LaTeX}{blabla, blabla}{Python}{blabla, blabla}
+
+\end{comment}
+
+\section{Activités et Intérêts}
+\cvitem{Hackathons}{Participation à des hackathons (thèmes : IoT, développement web).}
+\cvitem{Lecture}{ Lecture d'ouvrages sur les architectures logicielles modernes.}
+
+\end{document}ppp
